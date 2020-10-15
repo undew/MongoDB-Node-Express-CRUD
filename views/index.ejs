@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <h1>MongoDB+Node+Express</h1>
+    </header>
+    <main>
+        <article>
+            <h2>TEST</h2>
+            <section>
+                <h3>インサートしてみよう</h3>
+                <ul>
+                    <li>名前:<input type="text" id="name" name="name" value="" />
+                    </li>
+                    <li>年齢:<input type="text" id="age" name="age" value="" /></li>
+                </ul>
+                <button name="submit" id="button">送信</button>
+                <h3>アップデートしてみよう</h3>
+                <ul>
+                    <li>名前:<input type="text" id="udname" /></li>
+                    <input type="text" id="beforename" value="" />
+                    <li>年齢:<input type="text" id="udage" /></li>
+                    <input type="text" id="beforeage" value="" />
+                </ul>
+                <button id="update">更新</button>
+            </section>
+            <section>
+                <ul id="infolist">
+                </ul>
+            </section>
+            <button id="delete">選択したものを削除</button>
+        </article>
+    </main>
+    <script src="javascript.js"></script>
+</body>
+
+</html>
